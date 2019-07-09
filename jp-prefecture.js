@@ -26,7 +26,7 @@
   // Classification is adopted eight regional division
   var regions = [
     {id:1, name:"北海道", kana:"ホッカイドウ", en:"Hokkaidō", neighbor:[2]},
-    {id:2, name:"東北",   kana:"トウホク",     en:"Tōhoku",   neighbor:[1]},
+    {id:2, name:"東北",   kana:"トウホク",     en:"Tōhoku",   neighbor:[1, 3]},
     {id:3, name:"関東",   kana:"カントウ",     en:"Kantō",    neighbor:[2, 4]},
     {id:4, name:"中部",   kana:"チュウブ",     en:"Chūbu",    neighbor:[2, 3, 5]},
     {id:5, name:"関西",   kana:"カンサイ",     en:"Kansai",    neighbor:[4, 6, 7]},
